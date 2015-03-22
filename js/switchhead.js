@@ -29,7 +29,7 @@ $(window).load(function(){
     };
     setInterval(function(){
         var test1=switchHeader();
-    },10000);
+    },8000);
 
     $(".next").click(function(){
         var next=switchHeader();

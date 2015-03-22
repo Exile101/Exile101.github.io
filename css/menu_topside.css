@@ -29,9 +29,24 @@ body,
 
 .content {
 	position: relative;
-	background: #b4bad2;
+	background:#ECF0F1;
 	min-height: 1600px;
-	padding: 2em;
+}
+.sect
+{
+	min-height: 600px;
+}
+.bg-clouds
+{
+
+}
+.bg-silver
+{
+	background: #BDC3C7;
+}
+.bg-asphalt
+{
+	background: #34495E;
 }
 
 /* Overlay */

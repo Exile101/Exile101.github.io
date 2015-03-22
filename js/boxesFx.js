@@ -148,7 +148,7 @@
 		setInterval(function()
 			{	
 				self._navigate('next');
-			},10000);
+			},8000);
 		// previous action
 		navctrls[0].addEventListener( 'click', function() { self._navigate('prev') } );
 		// next action
