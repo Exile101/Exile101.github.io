@@ -1,0 +1,256 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Friends United</title>
+
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- web-font -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!-- web-font -->
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+
+				});
+
+				var nav = $('.header-bottom').offset().top;
+					
+					$(window).scroll(function(){
+						var scr = $('.mark').offset().top;
+						if(scr>nav)
+						{
+							$('.header-bottom').addClass("sticky");
+						}
+						if(scr<nav)
+						{
+							$('.header-bottom').removeClass("sticky");
+						}
+
+					});
+			});
+		</script>
+		<!-- start-smoth-scrolling -->
+	</head>
+	<body>
+	<div class="mark" ></div>
+		<div id="home" class="header-top">
+			<!-- container -->
+			<div class="container" style="margin-left:5px !important;">
+				<div class="head-left">
+					<a href="#"><img src="images/logo.png" class="logo" alt="" /></a><h1>Friends United</h1>
+				</div>
+				<div class="head-right">
+					<div class="phone">
+						<p>Phone:
+							<span>+91 9051955892</span>
+							<span>+91 9051958668</span>
+						</p>
+					</div>
+					<div class="location">
+						<p>Location:
+							<span>1, Charu Chandra Place (East),</span>
+							Kolkata -700 033.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+		</div>
+		<div class="header-bottom">
+			<!-- container -->
+			<div class="container">
+				<div class="top-nav">
+					<span class="menu">Menu</span>
+					<ul class="nav1">
+						<li><a href="index.html">Home</a></li>
+						<li><a  class="active" href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<!--<li><a href="clients.html">Clients</a></li> -->
+						<li><a href="contact.html">Contacts</a></li>
+						<li><a href="#footer" class="scroll">Enquiry</a></li>
+					</ul>
+					<!-- script-for-menu -->
+							 
+						<!-- /script-for-menu -->
+				
+				</div>
+			<!-- //container -->
+			</div>
+		</div>
+
+
+
+<div id="about" class="about">
+			<!-- container -->
+			<div class="container">
+				<div class="about-info">
+					<h3>About</h3>
+				</div>
+				<div class="about-grids">
+					<div class="col-md-8 about-grid-left">
+						<p>FRIENDS UNITED is dedicated to maintaining your brands integrity and delivering your order on time and on budget.   
+						
+						Whether your company is large or small, our team of creative experts is here to help you develop the best marketing solution.
+						</p>
+						
+					</div>
+					<div class="col-md-4 about-grid-right">
+						<img src="images/2.jpg" id="rndm2" alt="" />
+					</div>
+					<div class="clearfix"> </div>
+					<div class="about-bottom-grids">
+						<div class="col-md-6 about-bottom-grid-left">
+							<h4>Work Culture</h4>
+							<p>We listen to our customers and respond to their needs. We have a singular focus of complete customer satisfaction and it drives us in everything we do. From choosing our product lines to choosing how we handle day to day interaction with our customers, the thing that is always foremost in our minds is to exceed your expectations in every aspect of your business with us.
+							</p>
+						</div>
+						<div class="col-md-6 about-bottom-grid-left">
+							<h4>Customer Service</h4>
+							<p> We offer fast delivery of quality products at the most competitive prices. Let us help your corporate profile with the very best embroidered workwear and printed clothing. Our priority is to give you the very best value for money, so we tailor all quotes using our simple enquiry system. You may also call us or email us your design and get it printed on the finest fabrics. 
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //about -->
+		
+<div class="footer" id="footer">
+			<!-- container -->
+			<div class="container">
+
+			<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+						<button type="button">Enquire</button>
+						<div class="morph-content">
+							<div>
+								<div class="content-style-form content-style-form-1">
+									<span class="icon icon-close">Close the dialog</span>
+									<h2>Enquiry</h2>
+									<form>
+										<p><label>Name</label><input type="text" placeholder="" /></p>
+										<p><label>Email</label><input type="text" placeholder="" /></p>
+										<p><label>Phone Number</label><input type="text" placeholder="" /></p>
+										<p><label>City</label><input type="text" /></p>
+										<p><button type="submit">Submit</button></p>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div><!-- morph-button -->
+				<p style="padding:1.2em;font-size:1.2em;">Developed by<a href="http://appolysus.com/" target="_blank"><img src="images/logo1_2.png" class="appoLogo"> Appolysus Development Team</a></p>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //footer -->
+		<script src="js/classie.js"></script>
+		<script src="js/uiMorphingButton_fixed.js"></script>
+		<script>
+			(function() {
+				var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+				// trick to prevent scrolling when opening/closing button
+				function noScrollFn() {
+					window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+				}
+
+				function noScroll() {
+					window.removeEventListener( 'scroll', scrollHandler );
+					window.addEventListener( 'scroll', noScrollFn );
+				}
+
+				function scrollFn() {
+					window.addEventListener( 'scroll', scrollHandler );
+				}
+
+				function canScroll() {
+					window.removeEventListener( 'scroll', noScrollFn );
+					scrollFn();
+				}
+
+				function scrollHandler() {
+					if( !didScroll ) {
+						didScroll = true;
+						setTimeout( function() { scrollPage(); }, 60 );
+					}
+				};
+
+				function scrollPage() {
+					scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+					didScroll = false;
+				};
+
+				scrollFn();
+
+				[].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
+					new UIMorphingButton( bttn, {
+						closeEl : '.icon-close',
+						onBeforeOpen : function() {
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterOpen : function() {
+							// can scroll again
+							canScroll();
+						},
+						onBeforeClose : function() {
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterClose : function() {
+							// can scroll again
+							canScroll();
+						}
+					} );
+				} );
+
+				// for demo purposes only
+				[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
+					bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
+				} );
+			})();
+		</script>
+	<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
+	</html>
