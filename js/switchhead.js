@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(window).load(function(){
+    $(".preloaderHead").delay(2000).fadeOut(100);
     var set=1;
     function switchHeader()
     {
