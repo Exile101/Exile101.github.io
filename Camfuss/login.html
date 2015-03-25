@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Campfuss</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="Campfuss, campuss, student, social " />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+
+
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="login">
+		<div class="loginwrap">
+			<h1>Campfuss</h1>
+			<h3>Create a Campfuss Account!</h3>
+			<div class="loginformwrap">
+				<div class="bulletwrap">
+					
+				</div>
+				<div class="logincontent">
+					<form action="" method="POST">
+					<div class="row">
+						<div class="log logactive 6u -3u">
+							<input type="text" name="firstname" placeholder="First Name">
+							<input type="text" name="lastname" placeholder="Last Name">
+							<br>
+							<input style="width:70%;" type="email" name="email" placeholder="Email">
+							<br>
+							<input type="password" name="password" placeholder="Password">
+							<input type="password" name="Rpassword" placeholder="Repeat password">
+							<br>
+							<input style="width:70%;" type="text" name="dob" placeholder="Date of Birth">
+							<br>
+							<input id="radio1" type="radio" name="sex" value="male" checked="checked"><label for="radio1">Male <span><span></span></span></label>
+
+							<input id="radio2" type="radio" name="sex" value="female"><label for="radio2">Female <span><span></span></span></label>
+							
+							<ul class="lognav">
+								<li><div class="prevG"><span class="fa fa-chevron-left"></span></div></li>
+								<li><div class="nextbt"><span class="fa fa-chevron-right"></span></div></li>
+							</ul>
+						</div>
+						<div class="log 6u -3u">
+							<input style="width:70%;" type="text" name="hometown" placeholder="Home Town">
+							<br>
+							<input style="width:70%;" type="text" name="currentcity" placeholder="Current City">
+							<br>
+							
+							<ul class="lognav">
+								<li><div class="prevbt"><span class="fa fa-chevron-left"></span></div></li>
+								<li><div class="nextbt"><span class="fa fa-chevron-right"></span></div></li>
+							</ul>
+						</div>
+						<div class="log 6u -3u">
+							<input style="width:70%;" type="text" name="university" placeholder="University">
+							<br>
+							<input style="width:70%;" type="text" name="Cname" placeholder="Course name">
+							<br>
+							<input type="text" name="yearin" placeholder="Year Joined">
+							<input type="text" name="yearout" placeholder="Year Passout">
+							<ul class="lognav">
+								<li><div class="prevbt"><span class="fa fa-chevron-left"></span></div></li>
+								<li><div class="nextG"><span class="fa fa-chevron-right"></span></div></li>
+							</ul>
+							<input id="check1" type="checkbox" name="sex" value="yes"><label for="check1">I agree to all terms and conditions <span><span></span></span></label>
+							<br>
+							<input type="submit">
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script type="text/javascript" src="js/skel.min.js"></script>
+		<script>
+        skel.init();
+      </script>
+      <script type="text/javascript">
+      var currentpage=1;
+      $('.nextbt').click(function(){
+      	if (currentpage<4) {
+      		$('.log').eq(currentpage-1).removeClass("logactive");
+      		$('.log').eq(currentpage).addClass("logactive");
+      		currentpage++;
+      	}
+
+
+
+      });
+
+      $('.prevbt').click(function(){
+      	if (currentpage>1) {
+      		$('.log').eq(currentpage-1).removeClass("logactive");
+      		$('.log').eq(currentpage-2).addClass("logactive");
+      		currentpage--;
+      	}
+
+
+      });
+      </script>
+		
+		
+	</body>
+</html>
