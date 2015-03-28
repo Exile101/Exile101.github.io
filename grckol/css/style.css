@@ -500,6 +500,10 @@ html,body {
 .map {
 	margin: 3em 0 1em 0;
 }
+.map img
+{
+	width: 100%;
+}
 .border-bottom{
 	border-bottom: 1px solid #CCCCCC;
 }
