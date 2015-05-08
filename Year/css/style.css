@@ -1,0 +1,17 @@
+
+
+nav
+{
+	position: fixed;
+	width: 80%;
+	height: 5em;
+}
+.blok
+{
+	-webkit-box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.43);
+-moz-box-shadow:    1px 1px 11px 0px rgba(50, 50, 50, 0.43);
+box-shadow:         1px 1px 11px 0px rgba(50, 50, 50, 0.43);
+height: 50px;
+width: 50px;
+margin: 1px;
+}

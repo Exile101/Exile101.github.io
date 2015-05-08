@@ -1,0 +1,13 @@
+
+.day div
+{
+	background: #fff;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	-o-transition:all 0.2s;
+}
+.day div:hover
+{
+	background: rgb(92, 186, 249);
+}
