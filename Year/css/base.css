@@ -268,3 +268,10 @@ button:focus {
 		font-size: 2.8em;
 	}
 }
+.foot
+{
+	transform:translateY(50px) !important;
+	-webkit-transform:translateY(50px) !important;
+	-moz-transform:translateY(50px) !important;
+	-o-transform:translateY(50px) !important;
+}
