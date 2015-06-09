@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+<head>
+	<title>Template 1</title>
+
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/color.css">
+
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body ng-app="mockTest" ng-controller="NavController as nav" ng-init="tab = 1">
+	<!-- navigation -->
+	<section class="navigation bg1">
+
+		<ul>
+			<li>
+				<img id="logo" src="">
+			</li>
+			<img class="navhr" src="img/title-decoration.svg">
+			<li>
+				<a href="">Home</a>
+			</li>
+			<hr>
+			<li>
+				<a href="">About</a>
+			</li>
+			<hr>
+			<li>
+				<a href="">Packages</a>
+			</li>
+			<hr>
+			<li>
+				<a href="">Contacts</a>
+			</li>
+			<img class="navhr" src="img/title-decoration.svg">
+		</ul>
+		
+	</section>
+
+
+	<!-- content -->
+	<section class="content bg2">
+		<!-- Home screen -->
+		<div ng-show="tab === 1">
+			<div class="screen bgsp1">
+					<div class="slidebox">
+
+						<div class="slider-overlay">
+							<section>
+								<img src="img/title-decoration.svg">
+								<h1 class="col3 gyan">The only person who is educated is the one who has learned how to learn and change - Carl Rogers</h1>
+								<img src="img/title-decoration.svg">
+							</section>
+						</div>
+
+						<div class="downbtn bg2">
+							<span class="fa fa-chevron-down"></span>
+						</div>
+
+				  		<img class="slideboximg" src="img/1.jpg" alt="1">
+				  		<img class="slideboximg" src="img/2.jpg" alt="2">
+				  		<img class="slideboximg" src="img/3.jpg" alt="3">
+
+				      	<div class="progress bg3"></div>
+				  	</div>
+  	
+				
+			</div>
+
+			<div class="screen bg4 row">
+				<div class="trending bg4 6u">
+					
+				</div>
+
+				<div class="sects 6u">
+					<ul>
+						<li class="abt-sect bg2">
+							<img src="img/4.jpg">
+							<a class="bg2-1" href=""></a>
+						</li>
+						<li class="pack-sect bg1">
+							<img src="img/5.jpg">
+							<a class="bg1-1" href=""></a>							
+						</li>
+						<li class="contact-sect bg3">
+							<img src="img/6.jpg">
+							<a class="bg3-1" href=""></a>
+							
+						</li>
+					</ul>
+				</div>
+				
+
+			</div>
+		</div>
+
+		<!-- About -->
+		<div ng-show="tab === 2">
+			<div class="screen bgsp2">
+				
+			</div>
+
+			<div class="screen bg4">
+				
+
+			</div>
+		</div>
+
+		
+		
+
+	</section>
+
+
+
+</body>
+</html>
