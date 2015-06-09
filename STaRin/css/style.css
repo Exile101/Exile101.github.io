@@ -11,6 +11,18 @@ h1,h2,h3,h4,h5,h6,p,a
   font-family: 'Raleway', sans-serif;
 }
 
+.trans
+{
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -o-transition:all 0.2s;
+}
+a
+{
+  text-decoration: none !important; 
+}
+
 /*/////////////////////////////////////////*/
 /*//////////// Navigation ////////////////*/
 /*/////////////////////////////////////////*/
@@ -26,6 +38,7 @@ h1,h2,h3,h4,h5,h6,p,a
 }
 .navhr
 {
+  height: 50px !important;
   width: 100px;
   opacity: 0.4;
   display: block;
@@ -66,6 +79,12 @@ h1,h2,h3,h4,h5,h6,p,a
   width: 50px;
   display: block;
   margin: auto;
+}
+.close
+{
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 
@@ -224,4 +243,32 @@ h1,h2,h3,h4,h5,h6,p,a
   z-index: 20;
   height: 100%;
   width: 100%;
+}
+.btnbg *
+{
+  text-decoration: none;
+}
+.btnbg h3
+{
+  font-weight: 500;
+  font-size: 2.5em;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+.menuhr
+{
+  width: 150px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  position: static !important; 
+}
+.btnbg h6
+{
+  font-size: 1.2em;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
