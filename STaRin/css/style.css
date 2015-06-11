@@ -215,6 +215,7 @@ a
 .sects
 {
   height: 660px;
+  padding-left: 0 !important;
 }
 .sects ul
 {
@@ -272,3 +273,49 @@ a
   text-align: center;
   margin-top: 20px;
 }
+.news_img_holder
+{
+  border-radius: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 75px auto;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.news_img_holder img
+{
+  height: 100%;
+}
+.news_content h1
+{
+  text-align: center;
+  font-size: 2em;
+}
+.news_content h3
+{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+.news_content
+{
+  padding: 2em 2em 0 2em;
+}
+.morebtn
+{
+  padding: 1.5em;
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+  max-width: 200px;
+}
+.morebtn:hover
+{
+  background-color: #071621;
+}
+
+
