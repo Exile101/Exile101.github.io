@@ -1,11 +1,6 @@
 $(window).load(function(){
 
 
-	// horwheel init
-	var wrapper = document.querySelector('.viewer');
-
-	horwheel(wrapper);
-
 
 	// on hover effects
 	$('.c_overlay').mouseover(function(){
@@ -21,6 +16,10 @@ $(window).load(function(){
 		$(this).siblings().css("-moz-transform","scale(1)");
 		$(this).siblings().css("-o-transform","scale(1)");
 	});
+
+	//scroller
+	$(".nano").nanoScroller();
+
 
 
 })
