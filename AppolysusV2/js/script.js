@@ -20,6 +20,6 @@ $(window).load(function(){
 	//scroller
 	$(".nano").nanoScroller();
 
-
+	
 
 })

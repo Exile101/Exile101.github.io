@@ -16,7 +16,7 @@ a
 }
 h1,h2,h3,h4,h5,h6,p,a
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .thumb
@@ -104,22 +104,22 @@ opacity: 0;
 }
 .thumbs:nth-child(2) .img, .cards:nth-child(2) .img
 {
-	background-image: url(../img/12.jpg);
+	background-image: url(../img/16.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(3) .img, .cards:nth-child(3) .img
 {
-	background-image: url(../img/13.jpg);
+	background-image: url(../img/4.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(4) .img, .cards:nth-child(4) .img
 {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/17.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(5) .img, .cards:nth-child(5) .img
 {
-	background-image: url(../img/10.jpg);
+	background-image: url(../img/18.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(6) .img, .cards:nth-child(6) .img
@@ -142,6 +142,15 @@ opacity: 0;
 	min-width: 6000px;
 	overflow-y:hidden;
 	overflow-x:auto;  
+}
+.intro_tab
+{
+	background: #F5F5F5;
+	height: 100%;
+	width: 500px;
+	float: left;
+	overflow: hidden;
+	margin-right: 2px;
 }
 .cards
 {
@@ -174,6 +183,13 @@ min-width: 1000px;
 position: absolute;
 z-index: 2;
 }
+.cards .c_overlay:hover > *
+{
+	transform:translateY(-15px);
+	-webkit-transform:translateY(-15px);
+	-moz-transform:translateY(-15px);
+	-o-transform:translateY(-15px);
+}
 .cards .c_overlay:hover + .img
 {
 	transform:scale(1.1);
@@ -181,5 +197,57 @@ z-index: 2;
 	-moz-transform:scale(1.1);
 	-o-transform:scale(1.1);
 }
+.c_overlay
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.c_overlay>p
+{
+	width: 80%;
+	text-align: justify;
+}
+.c_overlay h2
+{
+	color: #fff;
+	padding-top: 350px;
+	font-size: 2.5em;
+	font-weight: 200;
+}
+.c_overlay hr
+{
+	opacity: 0.2;
+}
+.c_overlay p
+{
+	font-weight: 100;
+	color: #fff;
+	margin-bottom: 0;
+}
+.morebt
+{
+	padding: 0.4em 1em;
+	background: #fdfdfd;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 3px;
+}
+.detailsbt
+{
+	
+	background-color: rgba(232,64,64,0.8);
+	padding: 0.4em 1em;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 3px;
+	margin-left: 1em;
 
-
+}
+.detailsbt:hover
+{
+	background: #D21717;
+}
+.extra
+{
+	display: none;
+}
