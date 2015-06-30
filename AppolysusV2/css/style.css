@@ -64,13 +64,24 @@ h1,h2,h3,h4,h5,h6,p,a
 {
 	position: absolute;
 	text-align: center;
-	bottom: 30%;
+	width: 100%;
 	z-index: 1;
 	color: #fff;
-	font-size: 1.5em;
-	left: 25%;
-}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.75+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.75)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 
+}
+.thumbs a h2
+{
+	text-align: center;
+	font-weight: 500;
+}
 .thumbs .t_overlay
 {
 background-color: rgba(0,0,0,0.4);
@@ -99,12 +110,12 @@ opacity: 0;
 
 .thumbs:nth-child(1) .img, .cards:nth-child(1) .img
 {
-	background-image: url(../img/11.jpg);
+	background-image: url(../img/21.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(2) .img, .cards:nth-child(2) .img
 {
-	background-image: url(../img/16.jpg);
+	background-image: url(../img/20.jpg);
 	background-size: cover;
 }
 .thumbs:nth-child(3) .img, .cards:nth-child(3) .img
@@ -124,10 +135,14 @@ opacity: 0;
 }
 .thumbs:nth-child(6) .img, .cards:nth-child(6) .img
 {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/8.jpg);
 	background-size: cover;
 }
-
+.thumbs:nth-child(7) .img, .cards:nth-child(7) .img
+{
+	background-image: url(../img/19.jpg);
+	background-size: cover;
+}
 
 
 
@@ -136,10 +151,10 @@ opacity: 0;
 	overflow: auto;
 	overflow-y:hidden;
 }
-.viewer .nano-content
+.cardslider
 {
 	height: 100%;
-	min-width: 6000px;
+	min-width: 7000px;
 	overflow-y:hidden;
 	overflow-x:auto;  
 }
@@ -169,14 +184,14 @@ opacity: 0;
 }
 .cards .c_overlay
 {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.18+45,0.44+68,0.98+100 */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.18) 45%, rgba(0,0,0,0.44) 68%, rgba(0,0,0,0.98) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(45%,rgba(0,0,0,0.18)), color-stop(68%,rgba(0,0,0,0.44)), color-stop(100%,rgba(0,0,0,0.98))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.18) 45%,rgba(0,0,0,0.44) 68%,rgba(0,0,0,0.98) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.18) 45%,rgba(0,0,0,0.44) 68%,rgba(0,0,0,0.98) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.18) 45%,rgba(0,0,0,0.44) 68%,rgba(0,0,0,0.98) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.18) 45%,rgba(0,0,0,0.44) 68%,rgba(0,0,0,0.98) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#fa000000',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.06+41,0.9+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.06) 41%, rgba(0,0,0,0.9) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(41%,rgba(0,0,0,0.06)), color-stop(100%,rgba(0,0,0,0.9))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.06) 41%,rgba(0,0,0,0.9) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.06) 41%,rgba(0,0,0,0.9) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.06) 41%,rgba(0,0,0,0.9) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.06) 41%,rgba(0,0,0,0.9) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
 
 height: 100%;
 min-width: 1000px;
@@ -250,4 +265,38 @@ z-index: 2;
 .extra
 {
 	display: none;
+}
+.contactbt
+{
+	padding: 0.4em 1em;
+	color: #000;
+	background-color: #fdfdfd;
+	border-radius: 2px;
+	position: fixed;
+	top: 30px;
+	left: 28%;
+	cursor: pointer;
+	z-index: 500;
+}
+.social
+{
+	position: fixed;
+	right: 40px;
+	top: 35px;
+}
+.social span
+{
+	color: #fff;
+	font-size: 1.3em;
+	margin: 0 10px;
+}
+.complogo
+{
+	position: fixed;
+	left: 20%;
+	top: 15px;
+}
+.complogo img
+{
+	height: 75px;
 }
