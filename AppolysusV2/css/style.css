@@ -145,11 +145,26 @@ opacity: 0;
 }
 
 
+.intro
+{
+	width: 450px;
+	height: 100%;
+	float: left;
+	background-color: #182027;
+	padding: 5em 2em;
+}
+.intro img
+{
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
 
 .viewer
 {
 	overflow: auto;
 	overflow-y:hidden;
+	position: relative;
 }
 .cardslider
 {
@@ -281,13 +296,17 @@ z-index: 2;
 .social
 {
 	position: fixed;
+	z-index: 100;
 	right: 40px;
 	top: 35px;
+	padding: 0.5em 1em;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0.25);
 }
 .social span
 {
 	color: #fff;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin: 0 10px;
 }
 .complogo
