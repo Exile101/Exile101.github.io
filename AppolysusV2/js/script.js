@@ -49,4 +49,5 @@ $(window).load(function(){
 	$('.t_overlay').eq(6).click(function(){
 		$('.viewer').animate({scrollLeft:6000},1800,'easeInQuad');
 	});
-})
+
+});

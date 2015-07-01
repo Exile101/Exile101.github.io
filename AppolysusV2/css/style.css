@@ -309,13 +309,25 @@ z-index: 2;
 }
 .contactbt
 {
-	padding: 0.4em 1em;
+	padding: 0.3em 1em;
 	color: #000;
 	background-color: #fdfdfd;
 	border-radius: 2px;
 	position: fixed;
 	top: 30px;
 	left: 28%;
+	cursor: pointer;
+	z-index: 500;
+}
+.blogbt
+{
+	padding: 0.3em 1em;
+	color: #000;
+	background-color: #fdfdfd;
+	border-radius: 2px;
+	position: fixed;
+	top: 30px;
+	left: 38%;
 	cursor: pointer;
 	z-index: 500;
 }
@@ -355,6 +367,7 @@ z-index: 2;
 {
 	display: inline-block;
 	width: 400px;
+	margin: 0.2em 0;
 	color: #fff;
 	font-size: 1.4em;
 	font-weight: 200;
@@ -411,5 +424,17 @@ z-index: 2;
 .servList li
 {
 	display: inline-block;
-	text-align: center;
+	width: 400px;
+	margin: 0.8em 0;
+	color: #fff;
+}
+.servList li>*
+{
+	display: inline;
+	text-align: left;
+}
+.servList li h3
+{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 200 !important;
 }
