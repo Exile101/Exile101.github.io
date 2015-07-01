@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appolysus</title>
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/nanoscroller.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- scripts -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/skel.js"></script>
+	<script type="text/javascript" src="js/skel-layout.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<!--<script type="text/javascript" src="js/horwheel.js"></script> -->
+	<script type="text/javascript" src="js/jquery.nanoscroller.min.js"></script>
+	<script type='text/javascript' src='js/jquery.mousewheel.js'></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		skel.layout({
+		    reset: "normalize",
+		    grid: true,
+		    containers: true
+		});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+
+   		$(".viewer").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 30);
+    
+      event.preventDefault();
+
+   });
+
+});
+	</script>
+</head>
+<body>
+	<div class="row containers">
+		<div class="4u containers">
+			
+		</div>
+
+		<div class="8u containers teamcnt2">
+			<img src="./img/20.jpg">
+
+		</div>
+	</div>
+</body>
+</html>
