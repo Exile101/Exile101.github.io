@@ -569,11 +569,60 @@ z-index: 100;
 /*////////////////////////////////////////////////////*/
 /*////////////////////////////////////////////////////*/
 
+.teamcnt1
+{
+
+
+}
+
+
 .teamcnt2
 {
 	overflow: hidden;
+	position: relative;
 }
 .teamcnt2 img
 {
 	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.teamcnt2 ul
+{
+	position: absolute;
+	z-index: 10;
+	display: block;
+	padding-top: 100px;
+}
+.teamcnt2 ul li
+{
+	display: inline-block;
+	color: #fff;
+	width: 300px;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1em;
+}
+.teamcnt2 ul li span
+{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 0.8em;
+	font-weight: 200;
+}
+.teamcnt2>.complogo img
+{
+	height: 75px;
+}
+.teamcnt2>.complogo
+{
+	z-index: 100;
+	left: 5%;
+}
+.teamcnt2>.contactbt
+{
+	left: 15%;
+}
+.teamcnt2>.blogbt
+{
+	left: 25%;
 }
