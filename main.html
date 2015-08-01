@@ -1,224 +1,443 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>My Portfolio-Suman Senapati aka Exile</title>
-		<meta name="description" content="Suman's e-portfolio" />
-		<meta name="keywords" content="portfolio, works, profile, Suman, Senapati, web developer, web design" />
-		<meta name="author" content="Suman Senapati" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="main/js/jquery.min.js"></script>
-		<script src="main/js/jquery.scrolly.min.js"></script>
-		<script src="main/js/jquery.dropotron.min.js"></script>
-		<script src="main/js/jquery.scrollex.min.js"></script>
-		<script src="main/js/skel.min.js"></script>
-		<script src="main/js/skel-layers.min.js"></script>
-		<script src="main/js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="main/css/skel.css" />
-			<link rel="stylesheet" href="main/css/style.css" />
-			<link rel="stylesheet" href="main/css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
-	<!-- Nav -->
-		<!--<div class="navbar">
-			<ul>
-				<li>Home</li>
-				<li> About</li>
-				<li>Works</li>
-				<li>Blog</li>
-				<li>Contacts</li>
-			</ul>
-		</div> -->
-		<!-- Header -->
-			<header id="header">
-				<h1 id="logo"><a href="index.html">Suman Senapati</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>
-							<a href="">Layouts</a>
-							<ul>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-								<li>
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Option 1</a></li>
-										<li><a href="#">Option 2</a></li>
-										<li><a href="#">Option 3</a></li>
-										<li><a href="#">Option 4</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="elements.html">Elements</a></li>
-						<li><a href="#" class="button special">Sign Up</a></li>
-					</ul>
-				</nav>
-			</header>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="content">
-					<header>
-						<h2>We are here folks!</h2>
-						<p>Without wasting any more time,<br />
-						Let's head to the About Me section</p>
-					</header>
-					<span class="image"><img src="img/pencils.svg" alt="" /></span>
-				</div>
-				<a href="#one" class="goto-next scrolly">Next</a>
-			</section>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<meta name="description" content="Cardio is a free one page template made exclusively for Codrops by Luka Cvetinovic" />
+	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design" />
+	<meta name="author" content="Luka Cvetinovic for Codrops" />
+	<!-- Favicons (created with http://realfavicongenerator.net/)-->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00a8ff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
-		<!-- One -->
-			<section id="one" class="spotlight style1 bottom">
-				<span class="image fit main"><img src="main/images/pic02.jpg" alt="" /></span>
-				<div class="content">
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u$(medium)">
-								<header>
-									<h2>About <span style="font-size:3em;">ME</span></h2>
-									<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
-								</header>
-							</div>
-							<div class="4u 12u$(medium)">
-								<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-								Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-								nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-								augue varius tempus lobortis porttitor accumsan consequat
-								adipiscing lorem dolor.</p>
-							</div>
-							<div class="4u$ 12u$(medium)">
-								<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-								adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-								Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-								mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-								ipsum dolor nullam.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a href="#two" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="spotlight style2 right">
-				<span class="image fit main"><img src="main/images/pic03.jpg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>Interdum amet non magna accumsan</h2>
-						<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
-					</header>
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul>
-				</div>
-				<a href="#three" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="main/images/pic04.jpg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>Interdum felis blandit praesent sed augue</h2>
-						<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-					</header>
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul>
-				</div>
-				<a href="#four" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- Four -->
-			<section id="four" class="wrapper style1 special fade-up">
-				<div class="container">
-					<header class="major">
-						<h2>Accumsan sed tempus adipiscing blandit</h2>
-						<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
-					</header>
-					<div class="box alt">
-						<div class="row uniform">
-							<section class="4u 6u(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-area-chart"></span>
-								<h3>Ipsum sed commodo</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-							<section class="4u 6u$(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-comment"></span>
-								<h3>Eleifend lorem ornare</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-							<section class="4u$ 6u(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-flask"></span>
-								<h3>Cubilia cep lobortis</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-							<section class="4u 6u$(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-paper-plane"></span>
-								<h3>Non semper interdum</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-							<section class="4u 6u(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-file"></span>
-								<h3>Odio laoreet accumsan</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-							<section class="4u$ 6u$(medium) 12u$(xsmall)">
-								<span class="icon alt major fa-lock"></span>
-								<h3>Massa arcu accumsan</h3>
-								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-							</section>
-						</div>
-					</div>
-					<footer class="major">
-						<ul class="actions">
-							<li><a href="#" class="button">Magna sed feugiat</a></li>
-						</ul>
-					</footer>
-				</div>
-			</section>
-
-		<!-- Five -->
-			<section id="five" class="wrapper style2 special fade">
-				<div class="container">
-					<header>
-						<h2>Magna faucibus lorem diam</h2>
-						<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
-					</header>
-					<form method="post" action="#" class="container 50%">
-						<div class="row uniform 50%">
-							<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-							<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
-						</div>
-					</form>
-				</div>
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+<body>
+	<div class="preloader">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#about">About me</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#contact">Contacts</a></li>
+					<li><a href="http://github.com/Exile101" target="_blank" class="btn btn-blue">Follow Me <span class="fa fa-github"></span></a></li>
 				</ul>
-				
-			</footer>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<header id="intro">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<img data-sr="wait 1s and ease-in-out 100px over 0.5s" src="img/suman.jpg" id="propic2">
+							<h3 class="light white">Hey there</h3>
+							<h1 class="white typed">Welcome to my Dimension</h1>
+							<span class="typed-cursor">|</span>
 
-	</body>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="cut cut-top"></div>
+		<div class="container">
+			<div class="row intro-tables">
+				<div class="col-md-4">
+					<div class="intro-table intro-table-hover">
+						<h5 class="white heading hide-hover">Premium Membership</h5>
+						<div class="bottom">
+							<h4 class="white heading small-heading no-margin regular">Register Today</h4>
+							<h4 class="white heading small-pt">20% Discount</h4>
+							<a href="#" class="btn btn-white-fill expand">Register</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-hover">
+						<h5 class="white heading hide-hover">Premium Membership</h5>
+						<div class="bottom">
+							<h4 class="white heading small-heading no-margin regular">Register Today</h4>
+							<h4 class="white heading small-pt">20% Discount</h4>
+							<a href="#" class="btn btn-white-fill expand">Register</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-hover">
+						<h5 class="white heading hide-hover">Premium Membership</h5>
+						<div class="bottom">
+							<h4 class="white heading small-heading no-margin regular">Register Today</h4>
+							<h4 class="white heading small-pt">20% Discount</h4>
+							<a href="#" class="btn btn-white-fill expand">Register</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="section section-padded">
+		<div class="container">
+			<div class="row text-center title">
+				<h2>About me</h2>
+				<p data-sr="enter top and move 120px over 0.5s" class="text-box">
+					Hey guys! I'm Suman. I'm a kolkata based web developer. I started developing for the web since my freshmen year in college,that is around 3 years back. Ever since I have worked on a number of projects which include websites for a few startups, the website for Mukti 2015(A three days long meet for celebrating the freedom of open source), some freelance works, and quite a few personal projects. I started developing as a past-time but later on I found out I could land a few decent pages and earn some reputation (and ofcourse cash!) in the process.So I'm basically a senior chemical engineering student of National Institute of Technology Durgapur who develops for the web.
+				</p>
+			</div>
+			<div class="row hexed">
+				<div class=" hexcont">
+					    <div class="hex2-row">
+					        <div data-sr="wait 1s enter from top 200px over 0.5s" class="hex2"><div class="left"></div><div class="middle"><h6>Secured</h6><h1>89%</h1><h6>in ICSE examination,2009</h6></div><div class="right"></div></div>
+
+					        <div data-sr="wait 1.5s enter and move top 200px over 0.6s" class="hex2 even"><div class="left"></div><div class="middle"><h6>Secured</h6><h1>86.5%</h1><h6>in ISC examination, 2011</h6></div><div class="right"></div></div>
+
+					        <div data-sr="wait 2s enter from top 200px over 0.6s" class="hex2"><div class="left"></div><div class="middle"><h6>Joined</h6><h1>NITD</h1><h6>in 2012</h6></div><div class="right"></div></div>
+
+					        <div data-sr="wait 1s enter from top 200px over 0.8s" class="hex2 even"><div class="left"></div><div class="middle"><h6>Joined</h6><h3>GNU/Linux Users' Group</h3><h6>in 2013</h6></div><div class="right"></div></div>
+
+					        <div data-sr="wait 1.5s enter and move top 200px over 0.4s" class="hex2"><div class="left"></div><div class="middle"><h6>cgpa</h6><h1>8.65</h1><h6>after 6th semester</h6></div><div class="right"></div></div>
+					    </div>
+					    <!--<div class="hex2-row">
+					        <div class="hex2"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					        <div class="hex2 even"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					        <div class="hex2"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					    </div>
+					    <div class="hex2-row">
+					        <div class="hex2"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					        <div class="hex2 even"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					        <div class="hex2"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+					    </div> -->
+					</div>
+			</div>
+
+			
+			<div class="row services text-center">
+				<h3>What I do professionally</h3>
+				<div data-sr="enter left and move 100px over 0.4s" class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-flask abticons"></span>
+						</div>
+						<h4 class="heading">Chemical Engineering</h4>
+						<p class="description">I'm about to complete my undergraduate degree on chemical engineering soon. So I believe that is where I can excel the most in life! Only time will tell if I'm correct</p>
+					</div>
+				</div>
+				<div data-sr="enter top and move 100px over 0.4s" class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-code abticons"></span>
+						</div>
+						<h4 class="heading">Web developement</h4>
+						<p class="description">After successfully working in several web projects I'm certain that my skillsets would come in handy if someone is looking for a web developer fresh out of college</p>
+					</div>
+				</div>
+				<div data-sr="enter right and move 100px over 0.4s" class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-pencil abticons"></span>
+						</div>
+						<h4 class="heading">UI design</h4>
+						<p class="description">I have designed UIs for the projects I have worked on from time-to-time.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row services text-center">
+				<h3>What I do for fun</h3>
+				<div data-sr="enter left and move 100px over 0.4s" class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-gamepad abticons"></span>
+						</div>
+						<h4 class="heading">Gaming</h4>
+						<p class="description">Games? You name it. Ever since I learnt how to hold a mouse I knew left-click shoots bullets!</p>
+					</div>
+				</div>
+				<div class="col-md-4" data-sr="enter bottom and move 100px over 0.4s">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-space-shuttle abticons"></span>
+						</div>
+						<h4 class="heading">Astronomy Enthusiast</h4>
+						<p class="description">This one goes way back to my childhood days. From watching all those documentaries in Discovery channel to reading Hawking, Greene and deGrasse Tyson - the dream never faded but only grew bigger and stronger! </p>
+					</div>
+				</div>
+				<div class="col-md-4" data-sr="enter right and move 100px over 0.4s">
+					<div class="service">
+						<div class="icon-holder">
+							<span class="fa fa-3x fa-flash abticons"></span>
+						</div>
+						<h4 class="heading">..and a lot more</h4>
+						<p class="description">I can't begin to list all the stuff that I do. That's another story for another time!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cut cut-bottom"></div>
+	</section>
+	<section id="works" class="section black-bg">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top light muted">Works</h2>
+				<h4 class="light muted">These are some of my creations at a glance</h4>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Ben Adamson</h4>
+							<h5 class="muted regular">Fitness Instructor</h5>
+						</div>
+						<button data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill">Sign Up Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Eva Williams</h4>
+							<h5 class="muted regular">Personal Trainer</h5>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>John Phillips</h4>
+							<h5 class="muted regular">Personal Trainer</h5>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing" class="section">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top white">Pricing</h2>
+				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
+			</div>
+			<div class="row no-margin">
+				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
+					<div class="pricing">
+						<div class="box-main active" data-img="img/pricing1.jpg">
+							<h4 class="white">Yoga Pilates</h4>
+							<h4 class="white regular light">$850.00 <span class="small-font">/ year</span></h4>
+							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
+							<i class="info-icon icon_question"></i>
+						</div>
+						<div class="box-second active">
+							<ul class="white-list text-left">
+								<li>One Personal Trainer</li>
+								<li>Big gym space for training</li>
+								<li>Free tools &amp; props</li>
+								<li>Free locker</li>
+								<li>Free before / after shower</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pricing">
+						<div class="box-main" data-img="img/pricing2.jpg">
+							<h4 class="white">Cardio Training</h4>
+							<h4 class="white regular light">$100.00 <span class="small-font">/ year</span></h4>
+							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
+							<i class="info-icon icon_question"></i>
+						</div>
+						<div class="box-second">
+							<ul class="white-list text-left">
+								<li>One Personal Trainer</li>
+								<li>Big gym space for training</li>
+								<li>Free tools &amp; props</li>
+								<li>Free locker</li>
+								<li>Free before / after shower</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section-padded blue-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="owl-twitter owl-carousel">
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<h3 class="white">Sign Up</h3>
+				<form action="" class="popup-form">
+					<input type="text" class="form-control form-white" placeholder="Full Name">
+					<input type="text" class="form-control form-white" placeholder="Email Address">
+					<div class="dropdown">
+						<button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pricing Plan
+						</button>
+						<ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
+							<li class="animated lightSpeedIn"><a href="#">1 month membership ($150)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">3 month membership ($350)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">1 year membership ($1000)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">Free trial class</a></li>
+						</ul>
+					</div>
+					<div class="checkbox-holder text-left">
+						<div class="checkbox">
+							<input type="checkbox" value="None" id="squaredOne" name="check" />
+							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Reserve a Free Trial Class!</h3>
+					<h5 class="light regular light-white">Shape your body and improve your health.</h5>
+					<a href="#" class="btn btn-blue ripple trial-button">Start Free Trial</a>
+				</div>
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
+					<div class="row opening-hours">
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Mon - Fri</h5>
+							<h3 class="regular white">9:00 - 22:00</h3>
+						</div>
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Sat - Sun</h5>
+							<h3 class="regular white">10:00 - 18:00</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<p>&copy; 2015 All Rights Reserved. Powered by <a href="http://www.phir.co/">PHIr</a> exclusively for <a href="http://tympanus.net/codrops/">Codrops</a></p>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scrollReveal.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/mains.js"></script>
+	<script type="text/javascript">
+	window.sr = new scrollReveal();
+
+	var config={
+		mobile:false
+	}
+	</script>
+</body>
+
 </html>
