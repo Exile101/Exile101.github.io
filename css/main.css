@@ -1210,3 +1210,12 @@ footer .social-footer li:hover a {
     	display: block;
     	width: 90%;
     }
+    .hexcont-2
+    {
+    	margin: 50px auto;
+    	display: block;
+    }
+    .hexed-2
+    {
+    	min-height: 800px;
+    }
