@@ -9,8 +9,13 @@
 	display: block;
 	height: 100%;
 	width: 100%;
+	background-color: rgba(32, 173, 119,0.8);
 	font-family: sans-serif;
-	color: #000;
+	color: #fff;
+}
+.green-span
+{
+	
 }
 .honeycombs .inner-text{
 	padding-top: 30%;
