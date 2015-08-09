@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title> My portfolio</title>
+        <meta name="description" content="My e-portfolio-Suman Senapati" />
+        <meta name="keywords" content="Portfolio, Suman, Senapati, Blog" />
+        <meta name="author" content="Suman" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script' rel='stylesheet' type='text/css'>
+        <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+	<body>
+        <div class="menubtn"><span class="fa fa-th fa-3x trans"></span></div>
+        <div class="upbtn"><span class="fa fa-chevron-circle-up trans"></span></div>
+		<div class="container demo-2">
+			<div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="main-title typed">Welcome to my Dimension <span class="typed-cursor">|</span></h1>
+                </div>
+
+
+                <!-- About -->
+
+                <div class="about">
+                    <h1>About Me</h1>
+
+                    <p>Hey guys! I'm Suman from Kolkata. I'm a chemical engineer who takes keen interest in web developement. I started developing for the web since my freshmen year in college,that is around 3 years back. Ever since I have worked on a number of projects which include websites for a few startups, the website for Mukti 2015(A three days long meet for celebrating the freedom of open source), some freelance works, and quite a few personal projects. I started developing as a past-time but later on I found out I could land a few decent pages and earn some reputation (and ofcourse cash!) in the process.So I'm basically a senior chemical engineering student of National Institute of Technology Durgapur who develops for the web. Check out <a> my creations </a></p>
+                </div>
+
+             
+               
+            </div>
+            <!-- Related demos -->
+            <section class="related">
+                <p>If you enjoyed this demo you might also like:</p>
+                <a href="http://tympanus.net/Development/HeaderEffects/">
+                    <img src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2013/07/HeaderEffects-300x162.jpg" />
+                    <h3>On Scroll Header Effects</h3>
+                </a>
+                <a href="http://tympanus.net/Development/ArticleIntroEffects/">
+                    <img src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2014/05/ArticleIntroEffects-300x162.png" />
+                    <h3>Inspiration for Article Intro Effects</h3>
+                </a>
+            </section>
+            <p class="ref">Image from <a href="http://unsplash.com/">Unsplash</a>. Ornament made with the <a href="http://pixelbuddha.net/freebie/sable-kit-free">Free Sable Kit</a> from Pixel Buddha.</p>
+		</div><!-- /container -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/rAF.js"></script>
+        <script type="text/javascript" src="js/typed.js" ></script>
+        <script type="text/javascript">
+        $(window).load(function(){
+    $(function(){
+
+        $(".typed").typed({
+            strings: ["Hey there", "Welcome <br> to my<br> <span class='blck'> Dimension </span>"],
+            typeSpeed: 100,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+});
+
+    </script>
+        <script src="js/demo-2.js"></script>
+	</body>
+</html>
