@@ -90,3 +90,30 @@
     }
 
 })();
+
+
+$(window).load(function(){
+
+
+    $('.overlay').mouseover(function(){
+        $(this).siblings('.worksimg').css('transform','scale(1.1)');
+        $(this).siblings('.worksimg').css('-webkit-transform','scale(1.1)');
+        $(this).siblings('.worksimg').css('-moz-transform','scale(1.1)');
+        $(this).siblings('.worksimg').css('-o-transform','scale(1.1)');
+
+    });
+
+    $('.overlay').mouseout(function(){
+        $(this).siblings('.worksimg').css('transform','scale(1)');
+        $(this).siblings('.worksimg').css('-webkit-transform','scale(1)');
+        $(this).siblings('.worksimg').css('-moz-transform','scale(1)');
+        $(this).siblings('.worksimg').css('-o-transform','scale(1)');
+
+    });
+
+
+
+
+
+
+})

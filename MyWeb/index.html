@@ -34,9 +34,74 @@
                 <!-- About -->
 
                 <div class="about">
-                    <h1>About Me</h1>
+                    <h1>About <span class="grn"> Me </span></h1>
 
                     <p>Hey guys! I'm Suman from Kolkata. I'm a chemical engineer who takes keen interest in web developement. I started developing for the web since my freshmen year in college,that is around 3 years back. Ever since I have worked on a number of projects which include websites for a few startups, the website for Mukti 2015(A three days long meet for celebrating the freedom of open source), some freelance works, and quite a few personal projects. I started developing as a past-time but later on I found out I could land a few decent pages and earn some reputation (and ofcourse cash!) in the process.So I'm basically a senior chemical engineering student of National Institute of Technology Durgapur who develops for the web. Check out <a> my creations </a></p>
+                </div>
+
+
+                <!-- Works -->
+
+
+                <div class="works">
+                    <div class="row grid">
+                        <div class="6u grid-items h1 workintro">
+                            <h2>My Creations</h2>
+
+                            <p>Lorem Ipsum bla bla njncw webjwen wejdwj nwnw uwdiwj dwndw njwnd Lorem Ipsum bla bla njncw webjwen wejdwj nwnw uwdiwj dwndw njwnd Lorem Ipsum bla bla njncw webjwen wejdwj nwnw uwdiwj dwndw njwnd Lorem Ipsum bla bla njncw webjwen wejdwj nwnw uwdiwj dwndw njwnd</p>
+                        </div>
+                        <div data-sr="enter top over 0.5s and move 50px" class="6u grid-items h1 works-cont">
+                            <a href="#">Friends United <br> <span class="tags">#ecommerce #garments #wholesale </span> </a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg alt" src="img/projects/FU.jpg">
+
+                        </div>
+
+                        <div data-sr="enter bottom over 0.5s and move 50px" class="8u grid-items h2 works-cont">
+                             <a href="#">Garden Reach Kite Club Kolkata <br> <span class="tags"> #kalipuja #tradition </span></a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg" src="img/projects/grkckol.jpg">    
+                        </div>
+
+
+                        <div data-sr="enter top over 0.5s and ease-in-out 100px" class="4u grid-items h1 works-cont">
+                            <a href="#">AppolysusV1 <br> <span class="tags">#start-up #webDev </span></a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg" src="img/projects/appolysusv1.jpg"> 
+                        </div>
+
+
+                        <div data-sr="enter left over 0.5s and ease-in-out 20px" class="4u grid-items h1 works-cont">
+                            <a href="#">AppolysusV2</a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg" src="img/projects/appolysusv2.jpg">
+                        </div>
+
+                        <div data-sr="enter left over 0.2s and ease-in-out 100px" class="6u grid-items h2 works-cont">
+                             <a href="#">Starin <br> <span class="tags"> #entranceTest #institute #Ongoing </span></a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg" src="img/projects/starin.jpg">    
+                        </div>
+
+
+                        <div data-sr="enter top over 0.4s and ease-in-out 100px" class="6u grid-items h1 works-cont">
+                            <a href="#">NIT Durgapur Chemical Engineering Golden Jubilee Website <br> <span class="tags"> #goldenJubilee #conference </span></a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg" src="img/projects/golden.jpg"> 
+                        </div>
+
+                        <div data-sr="enter bottom over 0.5s and ease-in-out 80px" class="6u grid-items h1 works-cont">
+                            <a href="#">StockShopp <br> <span class="tags"> #ecommerceTemplate #incomplete </span></a>
+                            <div class="overlay trans"></div>
+                            <img class="trans worksimg alt" src="img/projects/stock.jpg"> 
+                        </div>
+
+
+
+
+                    </div>
+
+
                 </div>
 
              
@@ -58,6 +123,14 @@
 		</div><!-- /container -->
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script src="js/rAF.js"></script>
+        <script type="text/javascript" src="js/skel.js"></script>
+        <script type="text/javascript" src="js/skel-layout.js"></script>
+        <script type="text/javascript" src="js/skel-viewport.js"></script>
+        <script type="text/javascript">
+            skel.layout({
+                    grid: true
+                        });
+        </script>
         <script type="text/javascript" src="js/typed.js" ></script>
         <script type="text/javascript">
         $(window).load(function(){
@@ -89,5 +162,18 @@
 
     </script>
         <script src="js/demo-2.js"></script>
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/scrollReveal.min.js"></script>
+        <script type="text/javascript">
+            window.sr = new scrollReveal();
+        </script>
+        <script type="text/javascript">
+            $('.grid').masonry({
+              // options
+              itemSelector: '.grid-item',
+              columnWidth: 100
+            });
+        </script>
+
 	</body>
 </html>
