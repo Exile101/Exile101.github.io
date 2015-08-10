@@ -75,7 +75,7 @@
             _this.scale = 0.1+Math.random()*0.8;
             _this.velocity = Math.random();
         }
-
+        
         this.draw = function() {
             if(_this.alpha <= 0) {
                 init();
@@ -87,6 +87,7 @@
             ctx.fillStyle = 'rgba(256,256,256, '+ _this.alpha+')';
             ctx.fill();
         };
+   
     }
 
 })();
