@@ -131,6 +131,55 @@ $(window).load(function(){
     });
 
 
+// hides menu
+
+function vanish() {
+    var c=0;
+    for (var i = 0; i < 9;i++) {
+        var obj=$(".menucompo").eq(i);
+        
+        obj.delay(i*100).animate({'opacity':0},
+             function() { 
+                 obj.addClass("hideobj");
+                 c++;
+                 if (c==9) {
+                    $('.menu').addClass("hideobj");
+                 }
+                });
+
+                                };
+    
+};
+
+function showmenu() {
+    $('.menu').removeClass("hideobj");
+    for (var i = 0; i < 9;i++) {
+        var obj=$(".menucompo").eq(i);
+        obj.removeClass("hideobj");
+        obj.delay(i*100).animate({'opacity':1});
+    };
+};
+
+
+
+
+
+$(".menubtn").click(function(){
+    showmenu();
+});
+
+
+$('.closemenu').click(function(){
+    vanish();
+});
+
+
+
+    var width=$(window).outerWidth();
+    var percent=((width-500)*0.5)*100/width;
+    $('.menu').css("left",percent+"%");
+
+
 
 
 })
