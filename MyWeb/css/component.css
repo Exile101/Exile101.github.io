@@ -271,7 +271,7 @@ animation-delay: .8s;
 	bottom: 30px;
 	right: 30px;
 	z-index: 90;
-	color: rgba(32, 173, 119,0.5);
+	color: #1ABC9C;
 	font-size: 3em;
 	cursor: pointer;
 }
@@ -624,7 +624,7 @@ color:rgb(26, 188, 156);
 	padding: 1em;
 	background-color: #1ABC9C;
 	border-radius: 5px;
-	color: #fff;
+	color: #fff !important;
 	font-size: 1.5em;
 	display: block;
 	margin-top: 20px;

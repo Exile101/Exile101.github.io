@@ -114,6 +114,22 @@ $(window).load(function(){
 
 
 
+    $('.upbtn').hide();
+    $(window).scroll(function(){
+        var scrollTop=$(window).scrollTop();
+        if (scrollTop>300) {
+            $('.upbtn').show();
+        }
+        if (scrollTop<300) {
+            $('.upbtn').hide();
+        }
+    });
+
+    $('.upbtn').click(function(){
+        var scrollTop=$(window).scrollTop();
+        $('html,body').animate({scrollTop:0});
+    });
+
 
 
 
