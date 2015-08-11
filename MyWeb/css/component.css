@@ -540,7 +540,120 @@ color:rgb(26, 188, 156);
 
 .contact
 {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	background-color: #34495E;
+}
+.contact>.row>*
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-left: 1px solid rgba(44, 62, 80,0.8);
+	border-right: 1px solid rgba(44, 62, 80,0.8);
+}
+.contact>.row>*:hover
+{
+	background : #2C3E50;
+}
+.addresscont
+{
+	text-align: center;
+	min-height: 460px;
+}
+.addresscont h4,.planner h4
+{
+	color: #1ABC9C;
+	font-size: 2em;
+	font-weight: 200;
+	margin-top: 20px;
+
+}
+
+.addresscont p,.planner p
+{
+	text-align: center;
+	color: #fefefe;
+	width: 80%;
+	display: block;
+	font-size: 1.2em;
+	margin: auto;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.addresscont span,.planner span
+{
+	color: #1ABC9C;
+	font-size: 4em;
+}
+.emailphcont,.planner
+{
+	text-align: center;
+	min-height: 460px;
+}
+.emailphcont h4
+{
+	color: #1ABC9C;
+	font-size: 2em;
+	font-weight: 200;
+	margin-top: 20px;
+}
+.emailphcont span
+{
+	color: #1ABC9C;
+	font-size: 2em;
+}
+.fa-phone
+{
+	margin-top: 30px;
+}
+.emailphcont h6
+{
+	color: #1ABC9C;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+.emailphcont p,a
+{
+	color: #fefefe;
+}
+.emailphcont a:hover
+{
+	color: #f1f1f1;
+}
+.plannerlauncher
+{
+	padding: 1em;
 	background-color: #1ABC9C;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5em;
+	display: block;
+	margin-top: 20px;
+	max-width: 80%;
+	margin: 20px auto;
+}
+.plannerlauncher:hover
+{
+	background-color: #16A085;
+	color: #fff;
+}
+.plannerlauncher span
+{
+	color: #d4d4d4;
+	font-size: 0.8em;
+}
+
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*//////////////////  Footer  ////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+
+
+footer
+{
+	background-color: #2C3E50;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #fff;
+	text-align: center;
 }
