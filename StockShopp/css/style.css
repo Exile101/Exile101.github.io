@@ -43,6 +43,12 @@ nav
 	left: 0;
 	z-index: 100;
 }
+div,a,section
+{
+	box-sizing: border-box;
+}
+
+
 #home
 {
 	min-height: 700px;
@@ -68,7 +74,6 @@ nav
 {
 	padding:1.5em 2.5em;
 	background: #fff;
-	width: 80px;
 	font-size: 1.1em;
 	font-weight: 200;
 	display: inline-block;
@@ -90,7 +95,6 @@ nav
 	padding:1.5em 2.5em;
 	background: rgb(247, 147, 29);
 	color: #fff;
-	width: 80px;
 	font-size: 1.1em;
 	font-weight: 200;
 	display: inline-block;
@@ -225,6 +229,7 @@ box-shadow:         4px 4px 13px 0px rgba(50, 50, 50, 0.45);
 	overflow: hidden;
 	min-height: 600px;
 	margin-top: 100px;
+	margin-bottom: 75px;
 }
 .lrg,.mdm,.sml
 {
@@ -233,18 +238,18 @@ box-shadow:         4px 4px 13px 0px rgba(50, 50, 50, 0.45);
 }
 .lrg
 {
-	height: 350px;
-	width: 350px;
+	height: 400px;
+	width: 400px;
 }
 .mdm
 {
-	height: 250px;
-	width: 250px;
+	height: 190px;
+	width: 190px;
 }
 .sml
 {
-	height: 180px;
-	width: 180px;
+	height: 130px;
+	width: 130px;
 }
 #featured h1
 {
@@ -282,7 +287,7 @@ box-shadow:         4px 4px 13px 0px rgba(50, 50, 50, 0.45);
 }
 .mdm .morebtn
 {
-	padding-top: 1em;
+	padding-top: 0.7em;
 }
 .sml .morebtn
 {
@@ -295,8 +300,90 @@ box-shadow:         4px 4px 13px 0px rgba(50, 50, 50, 0.45);
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
+	line-height: 100%;
 }
 .morebtn a span
 {
 	color: #fff;
+}
+
+
+
+
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*////////////////  Specific  /////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+
+
+#specific
+{
+	min-height: 500px;
+	background-image: url('../img/bg2.jpg');
+	background-size: cover;
+}
+.advert
+{
+	min-height: 700px;
+	width: 100%;
+	background-color: rgba(200,200,200,0.65);
+}
+.advertPanel
+{
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+.advertPanel p
+{
+	text-align: justify;
+	padding: 1em 4em;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+.advertPanel h3
+{
+	font-family: 'Raleway',sans-serif;
+	font-size: 3em;
+	padding: 0.5em 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.toshop
+{
+	color: #fff;
+	padding: 1em 2em;
+	background-color: rgba(100,100,100,0.1);
+	border: 1px solid white;
+	display: inline-block;
+	margin-top: 140px;
+}
+.toshop:hover
+{
+	background-color: rgb(247, 147, 29);
+	border-color: rgb(247, 147, 29);
+}
+
+.Stuck
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*//////////////////  Footer  /////////////////////*/
+/*/////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////*/
+
+
+#footer
+{
+	min-height: 400px;
+	background-color: #414141;
 }
